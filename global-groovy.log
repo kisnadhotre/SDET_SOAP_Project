@@ -1,0 +1,25 @@
+2020-12-07 12:31:54,131 INFO  [log] Loaded 3 rows.
+2020-12-07 12:31:54,187 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
+2020-12-07 12:31:54,188 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
+2020-12-07 12:31:54,188 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
+2020-12-07 12:32:32,485 INFO  [log] Loaded 3 rows.
+2020-12-07 12:32:32,615 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
+2020-12-07 12:32:32,615 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
+2020-12-07 12:32:32,616 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
+2020-12-07 12:32:34,696 INFO  [log] 1733
+2020-12-07 12:32:34,821 INFO  [log] Context Rows: 3
+2020-12-07 12:32:34,821 INFO  [log] Current Step: 2
+2020-12-07 12:36:25,078 INFO  [log] Loaded 3 rows.
+2020-12-07 12:36:25,109 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
+2020-12-07 12:36:25,109 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
+2020-12-07 12:36:25,109 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
+2020-12-07 12:37:06,753 INFO  [log] Loaded 3 rows.
+2020-12-07 12:37:06,815 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
+2020-12-07 12:37:06,815 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
+2020-12-07 12:37:06,815 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
+2020-12-07 12:37:09,207 INFO  [log] 1737
+2020-12-07 12:37:09,331 INFO  [log] Context Rows: 3
+2020-12-07 12:37:09,331 INFO  [log] Current Step: 2
+2020-12-07 12:37:10,360 INFO  [log] 1738
+2020-12-07 12:37:10,366 INFO  [log] Context Rows: 3
+2020-12-07 12:37:10,367 INFO  [log] Current Step: 3

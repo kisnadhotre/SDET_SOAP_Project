@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 346
+Size: 0
+Timestamp: Mon Dec 07 12:32:34 IST 2020
+TestStep: LoopNextData
+Error:groovy.lang.MissingMethodException: No signature of method: com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.gotoStepByName() is applicable for argument types: (java.lang.String) values: [GetNextData]
+
+----------------- Messages ------------------------------
+groovy.lang.MissingMethodException: No signature of method: com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.gotoStepByName() is applicable for argument types: (java.lang.String) values: [GetNextData]
+error at line: 9
