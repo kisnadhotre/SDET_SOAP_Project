@@ -1,77 +1,61 @@
-2020-12-07 12:36:17,995 WARN  [SoapUI] Missing folder [C:\Users\KrishnaDhotre\Documents\IBM_2020\SDET\SoapUI_Project\batch5.sdet.soap\ext] for external libraries
-2020-12-07 12:36:18,183 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\KrishnaDhotre\soapui-settings.xml]
-2020-12-07 12:36:19,011 INFO  [WsdlProject] Loaded project from [file:/C:/Users/KrishnaDhotre/Documents/IBM_2020/SDET/SoapUI_Project/batch5.sdet.soap/salesOrderRepositoryV1-soapui-project.xml]
-2020-12-07 12:36:19,933 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [SDET_SOAP_Project]
-2020-12-07 12:36:19,933 INFO  [SoapUITestCaseRunner] Running Project [SDET_SOAP_Project], runType = SEQUENTIAL
-2020-12-07 12:36:19,933 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [salesOrderRepositoryV1Get TestCase]
-2020-12-07 12:36:19,968 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1Get]
-2020-12-07 12:36:22,372 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [salesOrderRepositoryV1Get TestCase], time taken: 2392ms, status: FINISHED
-2020-12-07 12:36:22,374 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [salesOrderRepositoryV1GetList TestCase]
-2020-12-07 12:36:22,375 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1GetList]
-2020-12-07 12:36:22,999 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [salesOrderRepositoryV1GetList TestCase], time taken: 634ms, status: FINISHED
-2020-12-07 12:36:22,999 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [salesOrderRepositoryV1Save TestCase]
-2020-12-07 12:36:22,999 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1Save]
-2020-12-07 12:36:24,778 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [salesOrderRepositoryV1Save TestCase], time taken: 1779ms, status: FINISHED
-2020-12-07 12:36:25,078 INFO  [log] Loaded 3 rows.
-2020-12-07 12:36:25,109 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
-2020-12-07 12:36:25,109 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
-2020-12-07 12:36:25,109 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
-2020-12-07 12:36:25,109 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_012]
-2020-12-07 12:36:25,109 INFO  [SoapUITestCaseRunner] running step [Properties]
-2020-12-07 12:36:25,156 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1Save]
-2020-12-07 12:36:25,883 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status FAILED
-2020-12-07 12:36:25,883 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> error: Unexpected element: CDATA
-2020-12-07 12:36:25,883 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Unexpected element: CDATA
-2020-12-07 12:36:25,883 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status FAILED
-2020-12-07 12:36:25,883 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response status code:500 is not in acceptable list of status codes
-2020-12-07 12:36:25,883 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status FAILED
-2020-12-07 12:36:25,883 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> XPathContains assertion failed for path [declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
-declare namespace env='http://www.w3.org/2003/05/soap-envelope';
-//customerEmail] : NullPointerException:null
-2020-12-07 12:36:25,883 ERROR [SoapUITestCaseRunner] salesOrderRepositoryV1Save failed, exporting to [C:\Users\KrishnaDhotre\Documents\IBM_2020\SDET\SoapUI_Project\batch5.sdet.soap\target/surefire-reports\Manual_salesOrderRepository_TestSuite-TC_012-salesOrderRepositoryV1Save-0-FAILED.txt]
-2020-12-07 12:36:25,899 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_012], time taken: 771ms, status: FAILED
-2020-12-07 12:36:25,914 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_013]
-2020-12-07 12:36:25,914 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1GetList]
-2020-12-07 12:37:04,729 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
-2020-12-07 12:37:04,729 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2020-12-07 12:37:04,729 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
-2020-12-07 12:37:04,729 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_013], time taken: 38820ms, status: FINISHED
-2020-12-07 12:37:04,729 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_014]
-2020-12-07 12:37:04,729 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1Get]
-2020-12-07 12:37:06,640 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
-2020-12-07 12:37:06,640 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2020-12-07 12:37:06,640 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_014], time taken: 1912ms, status: FINISHED
-2020-12-07 12:37:06,753 INFO  [log] Loaded 3 rows.
-2020-12-07 12:37:06,815 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
-2020-12-07 12:37:06,815 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
-2020-12-07 12:37:06,815 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
-2020-12-07 12:37:06,815 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_012]
-2020-12-07 12:37:06,831 INFO  [SoapUITestCaseRunner] running step [LoadAllData]
-2020-12-07 12:37:06,831 INFO  [SoapUITestCaseRunner] running step [GetNextData]
-2020-12-07 12:37:07,180 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1Save]
-2020-12-07 12:37:09,207 INFO  [log] 1737
-2020-12-07 12:37:09,208 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
-2020-12-07 12:37:09,208 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2020-12-07 12:37:09,208 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status UNKNOWN
-2020-12-07 12:37:09,208 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
-2020-12-07 12:37:09,208 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
-2020-12-07 12:37:09,262 INFO  [SoapUITestCaseRunner] running step [LoopNextData]
-2020-12-07 12:37:09,331 INFO  [log] Context Rows: 3
-2020-12-07 12:37:09,331 INFO  [log] Current Step: 2
-2020-12-07 12:37:09,336 INFO  [SoapUITestCaseRunner] running step [GetNextData]
-2020-12-07 12:37:09,338 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1Save]
-2020-12-07 12:37:10,360 INFO  [log] 1738
-2020-12-07 12:37:10,361 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
-2020-12-07 12:37:10,361 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2020-12-07 12:37:10,361 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status UNKNOWN
-2020-12-07 12:37:10,361 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
-2020-12-07 12:37:10,362 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
-2020-12-07 12:37:10,366 INFO  [SoapUITestCaseRunner] running step [LoopNextData]
-2020-12-07 12:37:10,366 INFO  [log] Context Rows: 3
-2020-12-07 12:37:10,367 INFO  [log] Current Step: 3
-2020-12-07 12:37:10,367 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_012], time taken: 3521ms, status: FINISHED
-2020-12-07 12:37:10,368 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_013]
-2020-12-07 12:37:10,369 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_013], time taken: 0ms, status: FINISHED
-2020-12-07 12:37:10,370 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_014]
-2020-12-07 12:37:10,370 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_014], time taken: 0ms, status: FINISHED
-2020-12-07 12:37:10,370 INFO  [SoapUITestCaseRunner] Project [SDET_SOAP_Project] finished with status [FAILED] in 50437ms
+2020-12-07 13:38:13,279 WARN  [SoapUI] Missing folder [C:\Users\KrishnaDhotre\Documents\IBM_2020\SDET\SoapUI_Project\batch5.sdet.soap\ext] for external libraries
+2020-12-07 13:38:13,529 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\KrishnaDhotre\soapui-settings.xml]
+2020-12-07 13:38:14,390 INFO  [WsdlProject] Loaded project from [file:/C:/Users/KrishnaDhotre/Documents/IBM_2020/SDET/SoapUI_Project/batch5.sdet.soap/salesOrderRepositoryV1-soapui-project.xml]
+2020-12-07 13:38:15,128 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [SDET_SOAP_Project]
+2020-12-07 13:38:15,128 INFO  [SoapUITestCaseRunner] Running Project [SDET_SOAP_Project], runType = SEQUENTIAL
+2020-12-07 13:38:15,503 INFO  [log] Loaded 3 rows.
+2020-12-07 13:38:15,552 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
+2020-12-07 13:38:15,552 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
+2020-12-07 13:38:15,552 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
+2020-12-07 13:38:15,552 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_012]
+2020-12-07 13:38:15,595 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-07 13:38:15,673 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1Save]
+2020-12-07 13:38:17,443 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:38:17,443 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 13:38:17,443 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-12-07 13:38:17,443 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_012], time taken: 1830ms, status: FINISHED
+2020-12-07 13:38:17,443 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_013]
+2020-12-07 13:38:17,443 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1GetList]
+2020-12-07 13:38:54,226 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:38:54,226 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 13:38:54,226 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-12-07 13:38:54,226 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_013], time taken: 36787ms, status: FINISHED
+2020-12-07 13:38:54,226 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_014]
+2020-12-07 13:38:54,226 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1Get]
+2020-12-07 13:38:55,118 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:38:55,118 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 13:38:55,118 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_014], time taken: 884ms, status: FINISHED
+2020-12-07 13:38:55,198 INFO  [log] Loaded 3 rows.
+2020-12-07 13:38:55,261 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
+2020-12-07 13:38:55,261 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
+2020-12-07 13:38:55,261 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
+2020-12-07 13:38:55,261 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_012]
+2020-12-07 13:38:55,276 INFO  [SoapUITestCaseRunner] running step [LoadAllData]
+2020-12-07 13:38:55,276 INFO  [SoapUITestCaseRunner] running step [GetNextData]
+2020-12-07 13:38:55,479 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1Save]
+2020-12-07 13:38:56,886 INFO  [log] 1748
+2020-12-07 13:38:56,886 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:38:56,886 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 13:38:56,886 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status UNKNOWN
+2020-12-07 13:38:56,886 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-07 13:38:56,886 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-12-07 13:38:56,949 INFO  [SoapUITestCaseRunner] running step [LoopNextData]
+2020-12-07 13:38:56,995 INFO  [log] Context Rows: 3
+2020-12-07 13:38:56,995 INFO  [log] Current Step: 2
+2020-12-07 13:38:57,011 INFO  [SoapUITestCaseRunner] running step [GetNextData]
+2020-12-07 13:38:57,011 INFO  [SoapUITestCaseRunner] running step [salesOrderRepositoryV1Save]
+2020-12-07 13:38:58,045 INFO  [log] 1749
+2020-12-07 13:38:58,045 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:38:58,045 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 13:38:58,045 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status UNKNOWN
+2020-12-07 13:38:58,045 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-07 13:38:58,045 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-12-07 13:38:58,045 INFO  [SoapUITestCaseRunner] running step [LoopNextData]
+2020-12-07 13:38:58,045 INFO  [log] Context Rows: 3
+2020-12-07 13:38:58,045 INFO  [log] Current Step: 3
+2020-12-07 13:38:58,045 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_012], time taken: 2752ms, status: FINISHED
+2020-12-07 13:38:58,045 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_013]
+2020-12-07 13:38:58,045 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_013], time taken: 0ms, status: FINISHED
+2020-12-07 13:38:58,045 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_014]
+2020-12-07 13:38:58,045 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_014], time taken: 0ms, status: FINISHED
+2020-12-07 13:38:58,045 INFO  [SoapUITestCaseRunner] Project [SDET_SOAP_Project] finished with status [FINISHED] in 42917ms

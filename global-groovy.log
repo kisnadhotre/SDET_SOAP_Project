@@ -23,3 +23,35 @@
 2020-12-07 12:37:10,360 INFO  [log] 1738
 2020-12-07 12:37:10,366 INFO  [log] Context Rows: 3
 2020-12-07 12:37:10,367 INFO  [log] Current Step: 3
+2020-12-07 13:31:53,467 INFO  [log] Loaded 3 rows.
+2020-12-07 13:31:53,483 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
+2020-12-07 13:31:53,483 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
+2020-12-07 13:31:53,483 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
+2020-12-07 13:32:19,658 INFO  [log] Loaded 3 rows.
+2020-12-07 13:32:19,689 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
+2020-12-07 13:32:19,689 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
+2020-12-07 13:32:19,689 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
+2020-12-07 13:33:00,561 INFO  [log] Loaded 3 rows.
+2020-12-07 13:33:00,639 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
+2020-12-07 13:33:00,639 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
+2020-12-07 13:33:00,639 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
+2020-12-07 13:33:02,956 INFO  [log] 1741
+2020-12-07 13:33:03,097 INFO  [log] Context Rows: 3
+2020-12-07 13:33:03,128 INFO  [log] Current Step: 2
+2020-12-07 13:33:04,242 INFO  [log] 1742
+2020-12-07 13:33:04,242 INFO  [log] Context Rows: 3
+2020-12-07 13:33:04,242 INFO  [log] Current Step: 3
+2020-12-07 13:38:15,503 INFO  [log] Loaded 3 rows.
+2020-12-07 13:38:15,552 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
+2020-12-07 13:38:15,552 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
+2020-12-07 13:38:15,552 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
+2020-12-07 13:38:55,198 INFO  [log] Loaded 3 rows.
+2020-12-07 13:38:55,261 INFO  [log] customerEmail,sku,qtyOrdered,price,paymentmethod
+2020-12-07 13:38:55,261 INFO  [log] abc@gmail.com,SKU00001,1,100,checkmo
+2020-12-07 13:38:55,261 INFO  [log] efg@gmail.com,SKU00001,2,200,checkmo
+2020-12-07 13:38:56,886 INFO  [log] 1748
+2020-12-07 13:38:56,995 INFO  [log] Context Rows: 3
+2020-12-07 13:38:56,995 INFO  [log] Current Step: 2
+2020-12-07 13:38:58,045 INFO  [log] 1749
+2020-12-07 13:38:58,045 INFO  [log] Context Rows: 3
+2020-12-07 13:38:58,045 INFO  [log] Current Step: 3
